@@ -1,0 +1,348 @@
+.dib,
+.dib_t,
+.dib_m,
+.dib_b,
+.dib_base,
+.vbutton,
+.header-logo,
+.header-menu,
+.header-menu-list-li,
+.row-45-cols-col,
+.contactus-icons-link,
+.footer-contacts,
+.footer-contacts-map,
+.footer-contacts-contacts,
+.footer-socials,
+.footer-new-col,
+.footer-new-col-list-link,
+.mapblocks-mapblock-col,
+.mapblocks-mapblock-col-info-blocks-block-icon,
+.mapblocks-mapblock-col-info-blocks-block-text {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+}
+.dib_t,
+.header-menu-list-li,
+.row-45-cols-col,
+.contactus-icons-link,
+.footer-contacts,
+.footer-contacts-map,
+.footer-contacts-contacts,
+.footer-socials,
+.footer-new-col,
+.footer-new-col-list-link,
+.mapblocks-mapblock-col {
+  vertical-align: top;
+}
+.dib_m,
+.header-logo,
+.header-menu,
+.mapblocks-mapblock-col-info-blocks-block-icon,
+.mapblocks-mapblock-col-info-blocks-block-text {
+  vertical-align: middle;
+}
+.dib_b {
+  vertical-align: bottom;
+}
+.dib_base,
+.vbutton {
+  vertical-align: baseline;
+/* 1280 */
+}
+.wc {
+  width: 1163px;
+  margin: 0 auto;
+  position: relative;
+}
+.vbutton {
+  padding: 5px 40px;
+  background-color: #000;
+  color: #fff;
+  font-size: 16.36px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 15px;
+  margin-right: 15px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+}
+.vbutton-red {
+  background-color: #db1419;
+}
+.header {
+  position: absolute;
+  padding-top: 20px;
+  left: 0;
+  top: 0;
+  z-index: 50;
+  width: 100%;
+  white-space: nowrap;
+}
+.header-logo {
+  width: 400px;
+}
+.header-menu {
+  width: 800px;
+}
+.header-menu-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+.header-menu-list-li {
+  padding-left: 57px;
+}
+.header-menu-list-link {
+  color: #fff;
+  font-size: 14.3px;
+  text-decoration: none;
+}
+.row-1-text1 {
+  font-size: 38px;
+  text-align: center;
+  color: #edecec;
+  opacity: 0.5;
+  font-weight: 500;
+  padding-top: 50.1px;
+}
+.row-1-text2 {
+  font-size: 37px;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+  padding-top: 83px;
+}
+.row-1-desc {
+  padding-top: 60px;
+  font-size: 18.8px;
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+}
+.row-1-logo {
+  text-align: center;
+  padding-top: 186px;
+}
+.row-1-buttons {
+  text-align: center;
+  padding-top: 50.3px;
+}
+.row-2 {
+  background-color: #121212;
+  padding-top: 42px;
+  padding-bottom: 42px;
+}
+.row-2-text {
+  font-size: 18.8px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.row-2-button {
+  text-align: center;
+}
+.row-25 {
+  margin-top: 54px;
+  margin-bottom: 54px;
+}
+.row-25-text {
+  font-size: 33px;
+  text-align: center;
+}
+.row-25-text2 {
+  font-size: 18.8px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.row-35 {
+  height: auto;
+  background-color: #000;
+}
+.row-3 {
+  background-image: url("../bg2.jpg");
+  background-position: center top;
+  height: 949px;
+}
+.row-45 {
+  margin-top: 54px;
+  margin-bottom: 54px;
+}
+.row-45-cols {
+  white-space: nowrap;
+}
+.row-45-cols-col {
+  width: 33%;
+  text-align: center;
+  white-space: normal;
+}
+.row-45-cols-col-title {
+  margin-top: 53px;
+  margin-bottom: 40px;
+  font-size: 33px;
+}
+.row-45-cols-col-text {
+  font-size: 18.8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+.row-45-cols-col-text a {
+  color: #c00;
+}
+.contactus-icons {
+  width: 450px;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+}
+.contactus-icons-link {
+  width: 120px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.contactus-form {
+  width: 775px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.contactus-form-input {
+  width: 100%;
+  padding: 5px;
+  font-size: 18.8px;
+  margin-bottom: 15px;
+  outline: 0;
+}
+.row-4 {
+  background-image: url("../bg3.jpg");
+  background-position: center top;
+  height: 864px;
+}
+.row-4-title {
+  font-size: 60px;
+  text-align: center;
+  padding-left: 430px;
+  padding-top: 230px;
+}
+.row-4-subtitle {
+  font-size: 24px;
+  text-align: center;
+  padding-left: 430px;
+  padding-top: 60px;
+  -webkit-text-shadow: 0 0 15px #fff;
+  -moz-text-shadow: 0 0 15px #fff;
+  -ms-text-shadow: 0 0 15px #fff;
+  -o-text-shadow: 0 0 15px #fff;
+  text-shadow: 0 0 15px #fff;
+}
+.row-4-button {
+  padding-left: 430px;
+  padding-top: 100px;
+  text-align: center;
+}
+.row-4-button .vbutton {
+  width: 200px;
+}
+.row-5-slides {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer {
+  color: #fff;
+  background-color: #000;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  white-space: nowrap;
+}
+.footer-contacts {
+  width: 600px;
+  white-space: normal;
+}
+.footer-contacts-contacts {
+  margin-left: 20px;
+}
+.footer-contacts-contactblock {
+  font-size: 14px;
+  padding-left: 25px;
+  margin-bottom: 25px;
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+.footer-contacts-contactblock-phone {
+  background-image: url("../pic-phone.png");
+}
+.footer-contacts-contactblock-email {
+  background-image: url("../pic-email.png");
+}
+.footer-contacts-contactblock-address {
+  background-image: url("../pic-address.png");
+}
+.footer-contacts-title {
+  font-size: 18px;
+}
+.footer-contacts-title:after {
+  content: ' ';
+  width: 50px;
+  border-bottom: 1px solid #fff;
+  display: block;
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+.footer-socials {
+  width: 600px;
+  white-space: normal;
+  text-align: center;
+}
+.footer-new {
+  white-space: nowrap;
+}
+.footer-new-col {
+  width: 240px;
+  color: #fff;
+  white-space: normal;
+}
+.footer-new-col-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.footer-new-col-list-link {
+  width: 100%;
+  color: #fff;
+}
+.mapblocks-mapblock {
+  white-space: nowrap;
+}
+.mapblocks-mapblock-col-1 {
+  width: 636px;
+}
+.mapblocks-mapblock-col-2 {
+  position: relative;
+  height: 400px;
+}
+.mapblocks-mapblock-col-info {
+  position: absolute;
+  bottom: 0;
+  padding-left: 50px;
+  padding-bottom: 10px;
+}
+.mapblocks-mapblock-col-info-title {
+  font-size: 30px;
+  margin-bottom: 35px;
+  padding-left: 50px;
+}
+.mapblocks-mapblock-col-info-blocks-block {
+  white-space: nowrap;
+  margin-bottom: 20px;
+}
+.mapblocks-mapblock-col-info-blocks-block-icon {
+  white-space: normal;
+  width: 50px;
+}
+.mapblocks-mapblock-col-info-blocks-block-text {
+  white-space: normal;
+}

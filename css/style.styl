@@ -1,0 +1,342 @@
+border-radius(n)
+    -webkit-border-radius n
+    -moz-border-radius n
+    border-radius n
+    
+text-shadow(n)
+    -webkit-text-shadow n
+    -moz-text-shadow n
+    -ms-text-shadow n
+    -o-text-shadow n
+    text-shadow n
+
+.dib
+    display inline-block
+    *display inline 
+    zoom 1
+.dib_t
+    @extends .dib
+    vertical-align top
+.dib_m
+    @extends .dib
+    vertical-align middle
+.dib_b
+    @extends .dib
+    vertical-align bottom
+.dib_base
+    @extends .dib
+    vertical-align baseline
+    
+    /* 1280 */
+.wc
+    width 1163px
+    margin 0 auto
+    position relative
+
+.vbutton
+    @extends .dib_base
+    padding 5px 40px 
+    background-color black 
+    color white 
+    font-size 16.36px
+    text-align center
+    text-decoration none
+    margin-left 15px
+    margin-right 15px
+    border-radius(50px)   
+    &-red 
+        background-color #db1419 
+
+.header
+    position absolute
+    padding-top 20px
+    left 0 
+    top 0
+    z-index 50
+    width 100%
+    white-space nowrap
+    &-logo 
+        @extends .dib_m
+        width 400px
+    &-menu
+        @extends .dib_m
+        width 800px
+        &-list
+            list-style none 
+            margin 0
+            padding 0
+            text-align right
+            &-li 
+                @extends .dib_t
+                padding-left 57px
+            &-link 
+                color white 
+                font-size 14.3px 
+                text-decoration none
+
+.row-1
+    &-text1
+        font-size 38px
+        text-align center 
+        color #edecec
+        opacity 0.5
+        font-weight 500
+        padding-top 50.1px
+    &-text2 
+        font-size 37px
+        text-align center 
+        color white
+        font-weight 500
+        padding-top 83px
+    &-desc 
+        padding-top 60px
+        font-size 18.8px 
+        color white 
+        text-align center
+        font-weight 500
+    &-logo 
+        text-align center
+        padding-top 186px
+        
+    &-buttons
+        text-align center
+        padding-top 50.3px
+        
+
+.row-2
+    background-color #121212
+    padding-top 42px
+    padding-bottom 42px
+    &-text 
+        font-size 18.8px 
+        color white
+        text-align center
+        margin-bottom 24px
+    &-button 
+        text-align center
+       
+.row-25
+    margin-top 54px
+    margin-bottom 54px    
+    &-text 
+
+        font-size 33px
+        text-align center
+    &-text2
+        font-size 18.8px 
+        text-align center
+        margin-bottom 24px 
+        
+
+.row-35
+    height auto 
+    background-color #000000       
+
+.row-3 
+    background-image url(../bg2.jpg)
+    background-position center top 
+    height 949px        
+    
+       
+.row-45
+    margin-top 54px
+    margin-bottom 54px  
+    &-cols 
+        white-space nowrap
+        &-col
+            @extends .dib_t
+            width 33%
+            text-align center
+            white-space normal 
+            &-title
+                margin-top 53px 
+                margin-bottom 40px  
+                font-size 33px
+            &-text 
+                font-size 18.8px
+                padding-left 10px 
+                padding-right 10px 
+                box-sizing border-box
+                & a 
+                    color #cc0000
+                    
+.contactus 
+    &-icons
+        
+        width 450px
+        margin 0 auto
+        margin-top 50px 
+        text-align center
+        &-link
+            @extends .dib_t 
+            width 120px
+            text-align center
+            margin-bottom 50px
+    &-form 
+        width 775px
+        
+        margin 0 auto
+        margin-bottom 40px
+        &-input
+            width 100%
+            padding 5px
+            font-size 18.8px
+            margin-bottom 15px
+            outline 0
+                                
+
+.row-4 
+    background-image url(../bg3.jpg)
+    background-position center top 
+    height 864px
+    &-title
+        font-size 60px 
+        text-align center
+        padding-left 430px
+        padding-top 230px
+    &-subtitle
+        font-size 24px
+        text-align center
+        padding-left 430px
+        padding-top 60px
+        text-shadow(0 0 15px white)
+    &-button 
+        padding-left 430px
+        padding-top 100px
+        text-align center
+        & .vbutton 
+            width 200px
+    
+.row-5
+    &-slides
+        margin 0
+        padding 0
+        list-style none
+        
+
+.footer
+    color white
+    background-color #000000
+    padding-top 40px
+    padding-bottom 40px
+    white-space nowrap
+    &-contacts 
+        @extends .dib_t
+        width 600px
+        white-space normal
+        &-map 
+            @extends .dib_t
+        &-contacts 
+            margin-left 20px
+            @extends .dib_t
+        &-contactblock  
+            font-size 14px  
+            padding-left 25px 
+            margin-bottom 25px
+            background-position left center 
+            background-repeat no-repeat
+            &-phone 
+                background-image url(../pic-phone.png)   
+            &-email 
+                background-image url(../pic-email.png)  
+            &-address 
+                background-image url(../pic-address.png)          
+        &-title
+            font-size 18px 
+            
+            &:after 
+                content ' '
+                width 50px 
+                border-bottom 1px solid white
+                display block
+                margin-bottom 25px
+                margin-top 10px
+                
+    &-socials 
+        @extends .dib_t
+        width 600px
+        white-space normal
+        text-align center
+
+
+
+.footer-new
+    white-space nowrap
+    &-col 
+        width 240px 
+        @extends .dib_t
+        color white 
+        white-space normal
+        &-title
+            text-transform uppercase
+            font-weight bold 
+            font-size 16px
+            margin-bottom 20px
+        &-list
+            &-link 
+                @extends .dib_t
+                width 100% 
+                color white
+                
+
+.mapblocks
+    &-mapblock 
+        white-space nowrap
+        &-col
+            @extends .dib_t
+            &-1
+                width 636px
+            &-2
+                position relative
+                height 400px
+            &-info 
+                position absolute
+                bottom 0
+                padding-left 50px
+                padding-bottom 10px
+                &-title
+                    font-size 30px
+                    margin-bottom 35px
+                    padding-left 50px
+                &-blocks
+                    &-block 
+                        white-space nowrap
+                        margin-bottom 20px
+                        &-icon 
+                            @extends .dib_m
+                            white-space normal
+                            width 50px
+                        &-text 
+                            @extends .dib_m
+                            white-space normal
+                            
+                
+.block-gimble
+    white-space nowrap
+    margin-top 25px 
+    margin-bottom 30px
+    &-right 
+        text-align right
+        
+        & .block-gimble-text-title
+            text-align right
+    &-pic 
+        @extends .dib_b
+        width 50%
+    &-text
+        @extends .dib_b
+        width 50%
+        padding-bottom 60px
+        &-title
+            text-align left
+            padding-top 50px
+        &-subtitle
+            font-size 22px
+        &-benefits
+            list-style none 
+            padding 0
+            &-benefit
+                font-size 16px
+                
+.row-gimblas
+    padding-top 30px
